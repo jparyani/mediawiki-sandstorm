@@ -234,3 +234,8 @@ $wgUploadDirectory = "/var/mediawiki-images";
  */
 $wgCacheDirectory = "/var/mediawiki-cache";
 
+/**
+ * When running in the Sandstorm iframe, external links will not be followed
+ * unless they are target="_blank"
+ */
+$wgExternalLinkTarget = "_blank";
