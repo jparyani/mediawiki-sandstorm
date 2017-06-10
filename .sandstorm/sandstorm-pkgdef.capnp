@@ -66,7 +66,8 @@ const pkgdef :Spk.PackageDefinition = (
       changeLog = (defaultText = embed "../mediawiki-core/HISTORY"),
 
       screenshots = [
-        (width = 448, height = 351, png = embed "sandstorm-screenshot.png")
+        (width = 1280, height = 614, png = embed "screenshot_mediawiki_home.png"),
+        (width = 1280, height = 614, png = embed "screenshot_mediawiki_config.png")
       ],
     ),
   ),
